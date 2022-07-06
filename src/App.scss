@@ -1,0 +1,91 @@
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.todoJob{
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input{
+  width: 80%;
+  margin-top:20px;
+  border-radius: 8px;
+  height: 3.5em;
+}
+
+.inputTodo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addTodo{
+  height: 4em;
+  margin-top:20px;
+  border-radius: 8px;
+  width: 5em;
+  cursor: pointer;
+  background: #1e90ff;
+  color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2.5px 5px;;
+}
+
+.todoList-action{
+  cursor: pointer;
+  text-align: center;
+  width: 30%;
+}
+.enable{
+  border-bottom: 3px solid #1e90ff;
+  transition: 0.5s;
+  padding-bottom: 15px;
+}
+
+
+input[type='checkbox']{
+  height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+.completed{
+  text-decoration: line-through;
+}
+
+.completeJob{
+  display: flex;
+  justify-content: space-between;  
+}
+
+.trashLogo{
+  margin-top: 21px;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
+
+.deleteAllButton{
+  float: right;
+}
+
+.none{
+  display: none !important;
+}
